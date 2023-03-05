@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">   <!--bootstrap-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> <!--aos-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer" /> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <link rel="stylesheet" href="main.css"> <!--linkcss-->
+    <title>cinema</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top" style="background-color: #000000;">
+        <div class="container">
+            <a class="navbar-brand" href="home.html">
+                <img style="height: 46px" src="img/logo.png">            
+            </a *logo>
+            <form action="" class="search-box"> 
+                <input type="text" class="search-text" placeholder="Tìm kiếm phim">
+                <button class="search-btn settim"><svg style="margin: -6px;" id="search" xmlns="http://www.w3.org/2000/svg" width="20.699" height="20.696" viewBox="0 0 63.699 63.696">
+                 <path id="Path_11603" data-name="Path 11603" d="M24,24a3.981,3.981,0,0,1,5.634,0L44.96,39.329a3.982,3.982,0,0,1-5.628,5.634L24.006,29.636a3.981,3.981,0,0,1,0-5.634Z" transform="translate(17.571 17.568)" fill-rule="evenodd"/>
+                 <path id="Path_11604" data-name="Path 11604" d="M25.877,47.773a21.9,21.9,0,1,0-21.9-21.9A21.9,21.9,0,0,0,25.877,47.773Zm25.877-21.9A25.877,25.877,0,1,1,25.877,0,25.877,25.877,0,0,1,51.754,25.877Z" fill-rule="evenodd"/>
+               </svg>
+               </button>
+             </form>
+            <!-- Navbar links -->
+            <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item dieuchinhheader">
+                        <a class="nav-link" href="#section1">Home</a>
+                    <li class="nav-item dieuchinhheader">
+                        <a class="nav-link" href="#section2">Phim</a>
+                    </li>
+                    <li class="nav-item dieuchinhheader">
+                        <a class="nav-link" href="phimchitiet.html">Đặt vé</a>
+                    </li>
+                    <li class="nav-item dieuchinhheader">
+                        <a class="nav-link" href="#section4">Rạp chiếu</a>
+                    </li>
+                    <li class="nav-item dieuchinhheader">
+                        <a class="nav-link" href="dangnhap.html">My Account</a>
+                    </li>
+                </ul>
+            </div>
+        </div *container1>
+    </nav *navber> 
+    <div id="section1" class="container trang1" style="margin-top: 100px;">
+            <div class="anhhome">
+                <div class="anh_home1">
+                    <div class="text_anhhome">
+                        <h1 style="margin-bottom: 2px;">CINEMA BOOKING</h1>
+                        <p class="ghichu">Đặt vé xem phim nhanh chóng dễ dàng cùng CINEMA
+                            Cả thế giới phim ảnh trước mắt bạn</p>
+                    </div>
+                </div>
+                <div class="anh_home2">
+                    <div class="text_anhhome">
+                        <h1 style="margin-bottom: 2px;">CINEMA BOOKING</h1>
+                        <p class="ghichu">Đặt vé xem phim nhanh chóng dễ dàng cùng CINEMA
+                            Cả thế giới phim ảnh trước mắt bạn</p>
+                    </div>
+                </div>
+                <div class="anh_home3">
+                    <div class="text_anhhome">
+                        <h1 style="margin-bottom: 2px;">CINEMA BOOKING</h1>
+                        <p class="ghichu">Đặt vé xem phim nhanh chóng dễ dàng cùng CINEMA
+                            Cả thế giới phim ảnh trước mắt bạn</p>
+                    </div>
+                </div>
+            </div>
+    </div>
+    <div class="container trang2">
+        <div class="tieude">
+            <h2>Phim sắp chiếu</h2>
+            <div class="line"></div>
+        </div>
+        <div class="row"> 
+            <div class="phimds col-md-3" >
+                <div class="hieu_ung">
+                    <img class="hinh_phim" src="img/p1.png" alt="">
+                    <div class="nen"></div>
+                    <div class="icon">
+                        <a href="phimchitiet.html" style="color: aliceblue;">ĐẶT PHIM</a>
+                    </div>
+                </div>
+                <div class="thongtin">
+                    <h3 class="tenphim">Siêu anh hùng Marval</h3>
+                    <p style="margin-bottom: 8px;">Thể loại: điện ảnh viễn tưởng</p>
+                    <div class="phanduoi row">
+                        <div class="col-sm-6 trai" style="padding-right: 0px;">
+                            <div style="margin-bottom: -13px;" class="danhgia"><svg style="margin: 4px 0px; margin-right: 5px;" xmlns="http://www.w3.org/2000/svg" width="15.687" height="15.039" viewBox="0 0 13.687 13.039">
+                                <path id="Icon_material-star-half" data-name="Icon material-star-half" d="M16.687,7.968l-4.92-.425L9.843,3,7.92,7.55,3,7.968l3.736,3.246L5.614,16.039l4.229-2.56,4.229,2.56-1.115-4.824ZM9.843,12.2V5.814l1.17,2.772,3,.261-2.272,1.976.684,2.937Z" transform="translate(-3 -3)" fill="#ffb300"/>
+                            </svg> <p>4.7 | 65 Đánh giá</p> 
+                            </div>
+                            <div class="thoigian"><svg style="margin: 4px 0px; margin-right: 5px;" id="Icon_ionic-ios-timer" data-name="Icon ionic-ios-timer" xmlns="http://www.w3.org/2000/svg" width="15.223" height="15.269" viewBox="0 0 15.223 15.269">
+                                <path id="Path_13" data-name="Path 13" d="M11.551,19.207A7.639,7.639,0,0,1,6.267,6.075a.612.612,0,0,1,.849.882A6.386,6.386,0,1,0,12.16,5.193v2.39a.613.613,0,1,1-1.226,0V4.552a.613.613,0,0,1,.613-.615,7.635,7.635,0,0,1,0,15.269Z" transform="translate(-3.937 -3.938)" fill="#195c71"/>
+                                <path id="Path_14" data-name="Path 14" d="M11.856,11.323l3.788,2.729a1.148,1.148,0,0,1-1.332,1.87,1.108,1.108,0,0,1-.266-.267l-2.722-3.8a.382.382,0,0,1,.533-.534Z" transform="translate(-7.292 -7.281)" fill="#195c71"/>
+                            </svg> <p>124 phút</p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="phimds col-md-3" >
+                <div class="hieu_ung">
+                    <img class="hinh_phim" src="img/p2.png" alt="">
+                    <div class="nen"></div>
+                    <div class="icon">
+                        <a href="phimchitiet.html" style="color: aliceblue;">ĐẶT PHIM</a>
+                    </div>
+                </div>
+                <div class="thongtin">
+                    <h3 class="tenphim">Diệp Vấn 2</h3>
+                    <p style="margin-bottom: 8px;">Thể loại: võ thuật</p>
+                    <div class="phanduoi row">
+                        <div class="col-sm-6 trai" style="padding-right: 0px;">
+                            <div style="margin-bottom: -13px;" class="danhgia"><svg style="margin: 4px 0px; margin-right: 5px;" xmlns="http://www.w3.org/2000/svg" width="15.687" height="15.039" viewBox="0 0 13.687 13.039">
+                                <path id="Icon_material-star-half" data-name="Icon material-star-half" d="M16.687,7.968l-4.92-.425L9.843,3,7.92,7.55,3,7.968l3.736,3.246L5.614,16.039l4.229-2.56,4.229,2.56-1.115-4.824ZM9.843,12.2V5.814l1.17,2.772,3,.261-2.272,1.976.684,2.937Z" transform="translate(-3 -3)" fill="#ffb300"/>
+                            </svg> <p>4.2 | 60 Đánh giá</p> 
+                            </div>
+                            <div class="thoigian"><svg style="margin: 4px 0px; margin-right: 5px;" id="Icon_ionic-ios-timer" data-name="Icon ionic-ios-timer" xmlns="http://www.w3.org/2000/svg" width="15.223" height="15.269" viewBox="0 0 15.223 15.269">
+                                <path id="Path_13" data-name="Path 13" d="M11.551,19.207A7.639,7.639,0,0,1,6.267,6.075a.612.612,0,0,1,.849.882A6.386,6.386,0,1,0,12.16,5.193v2.39a.613.613,0,1,1-1.226,0V4.552a.613.613,0,0,1,.613-.615,7.635,7.635,0,0,1,0,15.269Z" transform="translate(-3.937 -3.938)" fill="#195c71"/>
+                                <path id="Path_14" data-name="Path 14" d="M11.856,11.323l3.788,2.729a1.148,1.148,0,0,1-1.332,1.87,1.108,1.108,0,0,1-.266-.267l-2.722-3.8a.382.382,0,0,1,.533-.534Z" transform="translate(-7.292 -7.281)" fill="#195c71"/>
+                            </svg> <p>120 phút</p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="phimds col-md-3" >
+                <div class="hieu_ung">
+                    <img class="hinh_phim" src="img/p3.png" alt="">
+                    <div class="nen"></div>
+                    <div class="icon">
+                        <a href="phimchitiet.html" style="color: aliceblue;">ĐẶT PHIM</a>
+                    </div>
+                </div>
+                <div class="thongtin">
+                    <h3 class="tenphim">Siêu trộm Canada</h3>
+                    <p style="margin-bottom: 8px;">Thể loại: phưu lưu</p>
+                    <div class="phanduoi row">
+                        <div class="col-sm-6 trai" style="padding-right: 0px;">
+                            <div style="margin-bottom: -13px;" class="danhgia"><svg style="margin: 4px 0px; margin-right: 5px;" xmlns="http://www.w3.org/2000/svg" width="15.687" height="15.039" viewBox="0 0 13.687 13.039">
+                                <path id="Icon_material-star-half" data-name="Icon material-star-half" d="M16.687,7.968l-4.92-.425L9.843,3,7.92,7.55,3,7.968l3.736,3.246L5.614,16.039l4.229-2.56,4.229,2.56-1.115-4.824ZM9.843,12.2V5.814l1.17,2.772,3,.261-2.272,1.976.684,2.937Z" transform="translate(-3 -3)" fill="#ffb300"/>
+                            </svg> <p>3.7 | 25 Đánh giá</p> 
+                            </div>
+                            <div class="thoigian"><svg style="margin: 4px 0px; margin-right: 5px;" id="Icon_ionic-ios-timer" data-name="Icon ionic-ios-timer" xmlns="http://www.w3.org/2000/svg" width="15.223" height="15.269" viewBox="0 0 15.223 15.269">
+                                <path id="Path_13" data-name="Path 13" d="M11.551,19.207A7.639,7.639,0,0,1,6.267,6.075a.612.612,0,0,1,.849.882A6.386,6.386,0,1,0,12.16,5.193v2.39a.613.613,0,1,1-1.226,0V4.552a.613.613,0,0,1,.613-.615,7.635,7.635,0,0,1,0,15.269Z" transform="translate(-3.937 -3.938)" fill="#195c71"/>
+                                <path id="Path_14" data-name="Path 14" d="M11.856,11.323l3.788,2.729a1.148,1.148,0,0,1-1.332,1.87,1.108,1.108,0,0,1-.266-.267l-2.722-3.8a.382.382,0,0,1,.533-.534Z" transform="translate(-7.292 -7.281)" fill="#195c71"/>
+                            </svg> <p>110 phút</p>
+                            </div>
+                        </div>                        
+                    </div>
+                </div>
+            </div>
+            <div class="phimds col-md-3" >
+                <div class="hieu_ung">
+                    <img class="hinh_phim" src="img/p4.png" alt="">
+                    <div class="nen"></div>
+                    <div class="icon">
+                        <a href="phimchitiet.html" style="color: aliceblue;">ĐẶT PHIM</a>
+                    </div>
+                </div>
+                <div class="thongtin">
+                    <h3 class="tenphim">Thanh xuân của tôi</h3>
+                    <p style="margin-bottom: 8px;">Thể loại: tâm lý tình cảm</p>
+                    <div class="phanduoi row">
+                        <div class="col-sm-6 trai" style="padding-right: 0px;">
+                            <div style="margin-bottom: -13px;" class="danhgia"><svg style="margin: 4px 0px; margin-right: 5px;" xmlns="http://www.w3.org/2000/svg" width="15.687" height="15.039" viewBox="0 0 13.687 13.039">
+                                <path id="Icon_material-star-half" data-name="Icon material-star-half" d="M16.687,7.968l-4.92-.425L9.843,3,7.92,7.55,3,7.968l3.736,3.246L5.614,16.039l4.229-2.56,4.229,2.56-1.115-4.824ZM9.843,12.2V5.814l1.17,2.772,3,.261-2.272,1.976.684,2.937Z" transform="translate(-3 -3)" fill="#ffb300"/>
+                            </svg> <p>4.2 | 40 Đánh giá</p> 
+                            </div>
+                            <div class="thoigian"><svg style="margin: 4px 0px; margin-right: 5px;" id="Icon_ionic-ios-timer" data-name="Icon ionic-ios-timer" xmlns="http://www.w3.org/2000/svg" width="15.223" height="15.269" viewBox="0 0 15.223 15.269">
+                                <path id="Path_13" data-name="Path 13" d="M11.551,19.207A7.639,7.639,0,0,1,6.267,6.075a.612.612,0,0,1,.849.882A6.386,6.386,0,1,0,12.16,5.193v2.39a.613.613,0,1,1-1.226,0V4.552a.613.613,0,0,1,.613-.615,7.635,7.635,0,0,1,0,15.269Z" transform="translate(-3.937 -3.938)" fill="#195c71"/>
+                                <path id="Path_14" data-name="Path 14" d="M11.856,11.323l3.788,2.729a1.148,1.148,0,0,1-1.332,1.87,1.108,1.108,0,0,1-.266-.267l-2.722-3.8a.382.382,0,0,1,.533-.534Z" transform="translate(-7.292 -7.281)" fill="#195c71"/>
+                            </svg> <p>135 phút</p>
+                            </div>
+                        </div>                        
+                    </div>
+                </div>
+            </div>
+            <div class="phimds col-md-3" >
+                <div class="hieu_ung">
+                    <img class="hinh_phim" src="img/p5.png" alt="">
+                    <div class="nen"></div>
+                    <div class="icon">
+                        <a href="phimchitiet.html" style="color: aliceblue;">ĐẶT PHIM</a>
+                    </div>
+                </div>
+                <div class="thongtin">
+                    <h3 class="tenphim">Tuổi trẻ đáng nhớ</h3>
+                    <p style="margin-bottom: 8px;">Thể loại: tâm lý tình cảm</p>
+                    <div class="phanduoi row">
+                        <div class="col-sm-6 trai" style="padding-right: 0px;">
+                            <div style="margin-bottom: -13px;" class="danhgia"><svg style="margin: 4px 0px; margin-right: 5px;" xmlns="http://www.w3.org/2000/svg" width="15.687" height="15.039" viewBox="0 0 13.687 13.039">
+                                <path id="Icon_material-star-half" data-name="Icon material-star-half" d="M16.687,7.968l-4.92-.425L9.843,3,7.92,7.55,3,7.968l3.736,3.246L5.614,16.039l4.229-2.56,4.229,2.56-1.115-4.824ZM9.843,12.2V5.814l1.17,2.772,3,.261-2.272,1.976.684,2.937Z" transform="translate(-3 -3)" fill="#ffb300"/>
+                            </svg> <p>5.0 | 69 Đánh giá</p> 
+                            </div>
+                            <div class="thoigian"><svg style="margin: 4px 0px; margin-right: 5px;" id="Icon_ionic-ios-timer" data-name="Icon ionic-ios-timer" xmlns="http://www.w3.org/2000/svg" width="15.223" height="15.269" viewBox="0 0 15.223 15.269">
+                                <path id="Path_13" data-name="Path 13" d="M11.551,19.207A7.639,7.639,0,0,1,6.267,6.075a.612.612,0,0,1,.849.882A6.386,6.386,0,1,0,12.16,5.193v2.39a.613.613,0,1,1-1.226,0V4.552a.613.613,0,0,1,.613-.615,7.635,7.635,0,0,1,0,15.269Z" transform="translate(-3.937 -3.938)" fill="#195c71"/>
+                                <path id="Path_14" data-name="Path 14" d="M11.856,11.323l3.788,2.729a1.148,1.148,0,0,1-1.332,1.87,1.108,1.108,0,0,1-.266-.267l-2.722-3.8a.382.382,0,0,1,.533-.534Z" transform="translate(-7.292 -7.281)" fill="#195c71"/>
+                            </svg> <p>95 phút</p>
+                            </div>
+                        </div>                       
+                    </div>
+                </div>
+            </div>
+            <div class="phimds col-md-3" >
+                <div class="hieu_ung">
+                    <img class="hinh_phim" src="img/p6.png" alt="">
+                    <div class="nen"></div>
+                    <div class="icon">
+                        <a href="phimchitiet.html" style="color: aliceblue;">ĐẶT PHIM</a>
+                    </div>
+                </div>
+                <div class="thongtin">
+                    <h3 class="tenphim">Lớp học vui nhộn</h3>
+                    <p style="margin-bottom: 8px;">Thể loại: hài hước, tâm lý</p>
+                    <div class="phanduoi row">
+                        <div class="col-sm-6 trai" style="padding-right: 0px;">
+                            <div style="margin-bottom: -13px;" class="danhgia"><svg style="margin: 4px 0px; margin-right: 5px;" xmlns="http://www.w3.org/2000/svg" width="15.687" height="15.039" viewBox="0 0 13.687 13.039">
+                                <path id="Icon_material-star-half" data-name="Icon material-star-half" d="M16.687,7.968l-4.92-.425L9.843,3,7.92,7.55,3,7.968l3.736,3.246L5.614,16.039l4.229-2.56,4.229,2.56-1.115-4.824ZM9.843,12.2V5.814l1.17,2.772,3,.261-2.272,1.976.684,2.937Z" transform="translate(-3 -3)" fill="#ffb300"/>
+                            </svg> <p>3.2 | 46 Đánh giá</p> 
+                            </div>
+                            <div class="thoigian"><svg style="margin: 4px 0px; margin-right: 5px;" id="Icon_ionic-ios-timer" data-name="Icon ionic-ios-timer" xmlns="http://www.w3.org/2000/svg" width="15.223" height="15.269" viewBox="0 0 15.223 15.269">
+                                <path id="Path_13" data-name="Path 13" d="M11.551,19.207A7.639,7.639,0,0,1,6.267,6.075a.612.612,0,0,1,.849.882A6.386,6.386,0,1,0,12.16,5.193v2.39a.613.613,0,1,1-1.226,0V4.552a.613.613,0,0,1,.613-.615,7.635,7.635,0,0,1,0,15.269Z" transform="translate(-3.937 -3.938)" fill="#195c71"/>
+                                <path id="Path_14" data-name="Path 14" d="M11.856,11.323l3.788,2.729a1.148,1.148,0,0,1-1.332,1.87,1.108,1.108,0,0,1-.266-.267l-2.722-3.8a.382.382,0,0,1,.533-.534Z" transform="translate(-7.292 -7.281)" fill="#195c71"/>
+                            </svg> <p>124 phút</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="phimds col-md-3" >
+                <div class="hieu_ung">
+                    <img class="hinh_phim" src="img/p7.png" alt="">
+                    <div class="nen"></div>
+                    <div class="icon">
+                        <a href="phimchitiet.html" style="color: aliceblue;">ĐẶT PHIM</a>
+                    </div>
+                </div>
+                <div class="thongtin">
+                    <h3 class="tenphim">Người dơi Batman</h3>
+                    <p style="margin-bottom: 8px;">Thể loại: điện ảnh viễn tưởng</p>
+                    <div class="phanduoi row">
+                        <div class="col-sm-6 trai" style="padding-right: 0px;">
+                            <div style="margin-bottom: -13px;" class="danhgia"><svg style="margin: 4px 0px; margin-right: 5px;" xmlns="http://www.w3.org/2000/svg" width="15.687" height="15.039" viewBox="0 0 13.687 13.039">
+                                <path id="Icon_material-star-half" data-name="Icon material-star-half" d="M16.687,7.968l-4.92-.425L9.843,3,7.92,7.55,3,7.968l3.736,3.246L5.614,16.039l4.229-2.56,4.229,2.56-1.115-4.824ZM9.843,12.2V5.814l1.17,2.772,3,.261-2.272,1.976.684,2.937Z" transform="translate(-3 -3)" fill="#ffb300"/>
+                            </svg> <p>4.3 | 67 Đánh giá</p> 
+                            </div>
+                            <div class="thoigian"><svg style="margin: 4px 0px; margin-right: 5px;" id="Icon_ionic-ios-timer" data-name="Icon ionic-ios-timer" xmlns="http://www.w3.org/2000/svg" width="15.223" height="15.269" viewBox="0 0 15.223 15.269">
+                                <path id="Path_13" data-name="Path 13" d="M11.551,19.207A7.639,7.639,0,0,1,6.267,6.075a.612.612,0,0,1,.849.882A6.386,6.386,0,1,0,12.16,5.193v2.39a.613.613,0,1,1-1.226,0V4.552a.613.613,0,0,1,.613-.615,7.635,7.635,0,0,1,0,15.269Z" transform="translate(-3.937 -3.938)" fill="#195c71"/>
+                                <path id="Path_14" data-name="Path 14" d="M11.856,11.323l3.788,2.729a1.148,1.148,0,0,1-1.332,1.87,1.108,1.108,0,0,1-.266-.267l-2.722-3.8a.382.382,0,0,1,.533-.534Z" transform="translate(-7.292 -7.281)" fill="#195c71"/>
+                            </svg> <p>134 phút</p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="phimds col-md-3" >
+                <div class="hieu_ung">
+                    <img class="hinh_phim" src="img/p8.png" alt="">
+                    <div class="nen"></div>
+                    <div class="icon">
+                        <a href="phimchitiet.html" style="color: aliceblue;">ĐẶT PHIM</a>
+                    </div>
+                </div>
+                <div class="thongtin">
+                    <h3 class="tenphim">KingKong</h3>
+                    <p style="margin-bottom: 8px;">Thể loại: hành động,viễn tưởng</p>
+                    <div class="phanduoi row">
+                        <div class="col-sm-6 trai" style="padding-right: 0px;">
+                            <div style="margin-bottom: -13px;" class="danhgia"><svg style="margin: 4px 0px; margin-right: 5px;" xmlns="http://www.w3.org/2000/svg" width="15.687" height="15.039" viewBox="0 0 13.687 13.039">
+                                <path id="Icon_material-star-half" data-name="Icon material-star-half" d="M16.687,7.968l-4.92-.425L9.843,3,7.92,7.55,3,7.968l3.736,3.246L5.614,16.039l4.229-2.56,4.229,2.56-1.115-4.824ZM9.843,12.2V5.814l1.17,2.772,3,.261-2.272,1.976.684,2.937Z" transform="translate(-3 -3)" fill="#ffb300"/>
+                            </svg> <p>4.9 | 55 Đánh giá</p> 
+                            </div>
+                            <div class="thoigian"><svg style="margin: 4px 0px; margin-right: 5px;" id="Icon_ionic-ios-timer" data-name="Icon ionic-ios-timer" xmlns="http://www.w3.org/2000/svg" width="15.223" height="15.269" viewBox="0 0 15.223 15.269">
+                                <path id="Path_13" data-name="Path 13" d="M11.551,19.207A7.639,7.639,0,0,1,6.267,6.075a.612.612,0,0,1,.849.882A6.386,6.386,0,1,0,12.16,5.193v2.39a.613.613,0,1,1-1.226,0V4.552a.613.613,0,0,1,.613-.615,7.635,7.635,0,0,1,0,15.269Z" transform="translate(-3.937 -3.938)" fill="#195c71"/>
+                                <path id="Path_14" data-name="Path 14" d="M11.856,11.323l3.788,2.729a1.148,1.148,0,0,1-1.332,1.87,1.108,1.108,0,0,1-.266-.267l-2.722-3.8a.382.382,0,0,1,.533-.534Z" transform="translate(-7.292 -7.281)" fill="#195c71"/>
+                            </svg> <p>130 phút</p>
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+            
+        </div>  
+        <div>
+            <a style="color: blue;" href="">Xem thêm</a>
+        </div>  
+    </div>   
+    <div id="section1" class="container trang3" style="margin-top: 40px;">
+        <div class="tieude">
+            <h2>Phim HOT</h2>
+            <div class="line"></div>
+        </div>
+        <div class="row"> 
+            <div class="phimds col-md-3" >
+                <div class="hieu_ung">
+                    <img class="hinh_phim" src="img/p9.png" alt="">
+                    <div class="nen"></div>
+                    <div class="icon">
+                        <a href="" style="color: aliceblue;">ĐẶT PHIM</a>
+                    </div>
+                </div>
+                <div class="thongtin">
+                    <h3 class="tenphim">Sức mạnh thiên nhiên</h3>
+                    <p style="margin-bottom: 8px;">Thể loại: điện ảnh viễn tưởng</p>
+                    <div class="phanduoi row">
+                        <div class="col-sm-6 trai" style="padding-right: 0px;">
+                            <div style="margin-bottom: -13px;" class="danhgia"><svg style="margin: 4px 0px; margin-right: 5px;" xmlns="http://www.w3.org/2000/svg" width="15.687" height="15.039" viewBox="0 0 13.687 13.039">
+                                <path id="Icon_material-star-half" data-name="Icon material-star-half" d="M16.687,7.968l-4.92-.425L9.843,3,7.92,7.55,3,7.968l3.736,3.246L5.614,16.039l4.229-2.56,4.229,2.56-1.115-4.824ZM9.843,12.2V5.814l1.17,2.772,3,.261-2.272,1.976.684,2.937Z" transform="translate(-3 -3)" fill="#ffb300"/>
+                            </svg> <p>4.7 | 80 Đánh giá</p> 
+                            </div>
+                            <div class="thoigian"><svg style="margin: 4px 0px; margin-right: 5px;" id="Icon_ionic-ios-timer" data-name="Icon ionic-ios-timer" xmlns="http://www.w3.org/2000/svg" width="15.223" height="15.269" viewBox="0 0 15.223 15.269">
+                                <path id="Path_13" data-name="Path 13" d="M11.551,19.207A7.639,7.639,0,0,1,6.267,6.075a.612.612,0,0,1,.849.882A6.386,6.386,0,1,0,12.16,5.193v2.39a.613.613,0,1,1-1.226,0V4.552a.613.613,0,0,1,.613-.615,7.635,7.635,0,0,1,0,15.269Z" transform="translate(-3.937 -3.938)" fill="#195c71"/>
+                                <path id="Path_14" data-name="Path 14" d="M11.856,11.323l3.788,2.729a1.148,1.148,0,0,1-1.332,1.87,1.108,1.108,0,0,1-.266-.267l-2.722-3.8a.382.382,0,0,1,.533-.534Z" transform="translate(-7.292 -7.281)" fill="#195c71"/>
+                            </svg> <p>120 phút</p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="phimds col-md-3" >
+                <div class="hieu_ung">
+                    <img class="hinh_phim" src="img/p11.png" alt="">
+                    <div class="nen"></div>
+                    <div class="icon">
+                        <a href="" style="color: aliceblue;">ĐẶT PHIM</a>
+                    </div>
+                </div>
+                <div class="thongtin">
+                    <h3 class="tenphim">Cướp biển Canibe</h3>
+                    <p style="margin-bottom: 8px;">Thể loại: Phưu lưu</p>
+                    <div class="phanduoi row">
+                        <div class="col-sm-6 trai" style="padding-right: 0px;">
+                            <div style="margin-bottom: -13px;" class="danhgia"><svg style="margin: 4px 0px; margin-right: 5px;" xmlns="http://www.w3.org/2000/svg" width="15.687" height="15.039" viewBox="0 0 13.687 13.039">
+                                <path id="Icon_material-star-half" data-name="Icon material-star-half" d="M16.687,7.968l-4.92-.425L9.843,3,7.92,7.55,3,7.968l3.736,3.246L5.614,16.039l4.229-2.56,4.229,2.56-1.115-4.824ZM9.843,12.2V5.814l1.17,2.772,3,.261-2.272,1.976.684,2.937Z" transform="translate(-3 -3)" fill="#ffb300"/>
+                            </svg> <p>4.0 | 48 Đánh giá</p> 
+                            </div>
+                            <div class="thoigian"><svg style="margin: 4px 0px; margin-right: 5px;" id="Icon_ionic-ios-timer" data-name="Icon ionic-ios-timer" xmlns="http://www.w3.org/2000/svg" width="15.223" height="15.269" viewBox="0 0 15.223 15.269">
+                                <path id="Path_13" data-name="Path 13" d="M11.551,19.207A7.639,7.639,0,0,1,6.267,6.075a.612.612,0,0,1,.849.882A6.386,6.386,0,1,0,12.16,5.193v2.39a.613.613,0,1,1-1.226,0V4.552a.613.613,0,0,1,.613-.615,7.635,7.635,0,0,1,0,15.269Z" transform="translate(-3.937 -3.938)" fill="#195c71"/>
+                                <path id="Path_14" data-name="Path 14" d="M11.856,11.323l3.788,2.729a1.148,1.148,0,0,1-1.332,1.87,1.108,1.108,0,0,1-.266-.267l-2.722-3.8a.382.382,0,0,1,.533-.534Z" transform="translate(-7.292 -7.281)" fill="#195c71"/>
+                            </svg> <p>112 phút</p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="phimds col-md-3" >
+                <div class="hieu_ung">
+                    <img class="hinh_phim" src="img/p12.png" alt="">
+                    <div class="nen"></div>
+                    <div class="icon">
+                        <a href="" style="color: aliceblue;">ĐẶT PHIM</a>
+                    </div>
+                </div>
+                <div class="thongtin">
+                    <h3 class="tenphim">Siêu trộm Canada</h3>
+                    <p style="margin-bottom: 8px;">Thể loại: phưu lưu</p>
+                    <div class="phanduoi row">
+                        <div class="col-sm-6 trai" style="padding-right: 0px;">
+                            <div style="margin-bottom: -13px;" class="danhgia"><svg style="margin: 4px 0px; margin-right: 5px;" xmlns="http://www.w3.org/2000/svg" width="15.687" height="15.039" viewBox="0 0 13.687 13.039">
+                                <path id="Icon_material-star-half" data-name="Icon material-star-half" d="M16.687,7.968l-4.92-.425L9.843,3,7.92,7.55,3,7.968l3.736,3.246L5.614,16.039l4.229-2.56,4.229,2.56-1.115-4.824ZM9.843,12.2V5.814l1.17,2.772,3,.261-2.272,1.976.684,2.937Z" transform="translate(-3 -3)" fill="#ffb300"/>
+                            </svg> <p>3.7 | 25 Đánh giá</p> 
+                            </div>
+                            <div class="thoigian"><svg style="margin: 4px 0px; margin-right: 5px;" id="Icon_ionic-ios-timer" data-name="Icon ionic-ios-timer" xmlns="http://www.w3.org/2000/svg" width="15.223" height="15.269" viewBox="0 0 15.223 15.269">
+                                <path id="Path_13" data-name="Path 13" d="M11.551,19.207A7.639,7.639,0,0,1,6.267,6.075a.612.612,0,0,1,.849.882A6.386,6.386,0,1,0,12.16,5.193v2.39a.613.613,0,1,1-1.226,0V4.552a.613.613,0,0,1,.613-.615,7.635,7.635,0,0,1,0,15.269Z" transform="translate(-3.937 -3.938)" fill="#195c71"/>
+                                <path id="Path_14" data-name="Path 14" d="M11.856,11.323l3.788,2.729a1.148,1.148,0,0,1-1.332,1.87,1.108,1.108,0,0,1-.266-.267l-2.722-3.8a.382.382,0,0,1,.533-.534Z" transform="translate(-7.292 -7.281)" fill="#195c71"/>
+                            </svg> <p>110 phút</p>
+                            </div>
+                        </div>                        
+                    </div>
+                </div>
+            </div>
+            <div class="phimds col-md-3" >
+                <div class="hieu_ung">
+                    <img class="hinh_phim" src="img/p4.png" alt="">
+                    <div class="nen"></div>
+                    <div class="icon">
+                        <a href="" style="color: aliceblue;">ĐẶT PHIM</a>
+                    </div>
+                </div>
+                <div class="thongtin">
+                    <h3 class="tenphim">Thanh xuân của tôi</h3>
+                    <p style="margin-bottom: 8px;">Thể loại: tâm lý tình cảm</p>
+                    <div class="phanduoi row">
+                        <div class="col-sm-6 trai" style="padding-right: 0px;">
+                            <div style="margin-bottom: -13px;" class="danhgia"><svg style="margin: 4px 0px; margin-right: 5px;" xmlns="http://www.w3.org/2000/svg" width="15.687" height="15.039" viewBox="0 0 13.687 13.039">
+                                <path id="Icon_material-star-half" data-name="Icon material-star-half" d="M16.687,7.968l-4.92-.425L9.843,3,7.92,7.55,3,7.968l3.736,3.246L5.614,16.039l4.229-2.56,4.229,2.56-1.115-4.824ZM9.843,12.2V5.814l1.17,2.772,3,.261-2.272,1.976.684,2.937Z" transform="translate(-3 -3)" fill="#ffb300"/>
+                            </svg> <p>4.2 | 40 Đánh giá</p> 
+                            </div>
+                            <div class="thoigian"><svg style="margin: 4px 0px; margin-right: 5px;" id="Icon_ionic-ios-timer" data-name="Icon ionic-ios-timer" xmlns="http://www.w3.org/2000/svg" width="15.223" height="15.269" viewBox="0 0 15.223 15.269">
+                                <path id="Path_13" data-name="Path 13" d="M11.551,19.207A7.639,7.639,0,0,1,6.267,6.075a.612.612,0,0,1,.849.882A6.386,6.386,0,1,0,12.16,5.193v2.39a.613.613,0,1,1-1.226,0V4.552a.613.613,0,0,1,.613-.615,7.635,7.635,0,0,1,0,15.269Z" transform="translate(-3.937 -3.938)" fill="#195c71"/>
+                                <path id="Path_14" data-name="Path 14" d="M11.856,11.323l3.788,2.729a1.148,1.148,0,0,1-1.332,1.87,1.108,1.108,0,0,1-.266-.267l-2.722-3.8a.382.382,0,0,1,.533-.534Z" transform="translate(-7.292 -7.281)" fill="#195c71"/>
+                            </svg> <p>135 phút</p>
+                            </div>
+                        </div>                        
+                    </div>
+                </div>
+            </div>
+            <div class="phimds col-md-3" >
+                <div class="hieu_ung">
+                    <img class="hinh_phim" src="img/p5.png" alt="">
+                    <div class="nen"></div>
+                    <div class="icon">
+                        <a href="" style="color: aliceblue;">ĐẶT PHIM</a>
+                    </div>
+                </div>
+                <div class="thongtin">
+                    <h3 class="tenphim">Tuổi trẻ đáng nhớ</h3>
+                    <p style="margin-bottom: 8px;">Thể loại: tâm lý tình cảm</p>
+                    <div class="phanduoi row">
+                        <div class="col-sm-6 trai" style="padding-right: 0px;">
+                            <div style="margin-bottom: -13px;" class="danhgia"><svg style="margin: 4px 0px; margin-right: 5px;" xmlns="http://www.w3.org/2000/svg" width="15.687" height="15.039" viewBox="0 0 13.687 13.039">
+                                <path id="Icon_material-star-half" data-name="Icon material-star-half" d="M16.687,7.968l-4.92-.425L9.843,3,7.92,7.55,3,7.968l3.736,3.246L5.614,16.039l4.229-2.56,4.229,2.56-1.115-4.824ZM9.843,12.2V5.814l1.17,2.772,3,.261-2.272,1.976.684,2.937Z" transform="translate(-3 -3)" fill="#ffb300"/>
+                            </svg> <p>5.0 | 69 Đánh giá</p> 
+                            </div>
+                            <div class="thoigian"><svg style="margin: 4px 0px; margin-right: 5px;" id="Icon_ionic-ios-timer" data-name="Icon ionic-ios-timer" xmlns="http://www.w3.org/2000/svg" width="15.223" height="15.269" viewBox="0 0 15.223 15.269">
+                                <path id="Path_13" data-name="Path 13" d="M11.551,19.207A7.639,7.639,0,0,1,6.267,6.075a.612.612,0,0,1,.849.882A6.386,6.386,0,1,0,12.16,5.193v2.39a.613.613,0,1,1-1.226,0V4.552a.613.613,0,0,1,.613-.615,7.635,7.635,0,0,1,0,15.269Z" transform="translate(-3.937 -3.938)" fill="#195c71"/>
+                                <path id="Path_14" data-name="Path 14" d="M11.856,11.323l3.788,2.729a1.148,1.148,0,0,1-1.332,1.87,1.108,1.108,0,0,1-.266-.267l-2.722-3.8a.382.382,0,0,1,.533-.534Z" transform="translate(-7.292 -7.281)" fill="#195c71"/>
+                            </svg> <p>95 phút</p>
+                            </div>
+                        </div>                       
+                    </div>
+                </div>
+            </div>
+            <div class="phimds col-md-3" >
+                <div class="hieu_ung">
+                    <img class="hinh_phim" src="img/p6.png" alt="">
+                    <div class="nen"></div>
+                    <div class="icon">
+                        <a href="" style="color: aliceblue;">ĐẶT PHIM</a>
+                    </div>
+                </div>
+                <div class="thongtin">
+                    <h3 class="tenphim">Lớp học vui nhộn</h3>
+                    <p style="margin-bottom: 8px;">Thể loại: hài hước, tâm lý</p>
+                    <div class="phanduoi row">
+                        <div class="col-sm-6 trai" style="padding-right: 0px;">
+                            <div style="margin-bottom: -13px;" class="danhgia"><svg style="margin: 4px 0px; margin-right: 5px;" xmlns="http://www.w3.org/2000/svg" width="15.687" height="15.039" viewBox="0 0 13.687 13.039">
+                                <path id="Icon_material-star-half" data-name="Icon material-star-half" d="M16.687,7.968l-4.92-.425L9.843,3,7.92,7.55,3,7.968l3.736,3.246L5.614,16.039l4.229-2.56,4.229,2.56-1.115-4.824ZM9.843,12.2V5.814l1.17,2.772,3,.261-2.272,1.976.684,2.937Z" transform="translate(-3 -3)" fill="#ffb300"/>
+                            </svg> <p>3.2 | 46 Đánh giá</p> 
+                            </div>
+                            <div class="thoigian"><svg style="margin: 4px 0px; margin-right: 5px;" id="Icon_ionic-ios-timer" data-name="Icon ionic-ios-timer" xmlns="http://www.w3.org/2000/svg" width="15.223" height="15.269" viewBox="0 0 15.223 15.269">
+                                <path id="Path_13" data-name="Path 13" d="M11.551,19.207A7.639,7.639,0,0,1,6.267,6.075a.612.612,0,0,1,.849.882A6.386,6.386,0,1,0,12.16,5.193v2.39a.613.613,0,1,1-1.226,0V4.552a.613.613,0,0,1,.613-.615,7.635,7.635,0,0,1,0,15.269Z" transform="translate(-3.937 -3.938)" fill="#195c71"/>
+                                <path id="Path_14" data-name="Path 14" d="M11.856,11.323l3.788,2.729a1.148,1.148,0,0,1-1.332,1.87,1.108,1.108,0,0,1-.266-.267l-2.722-3.8a.382.382,0,0,1,.533-.534Z" transform="translate(-7.292 -7.281)" fill="#195c71"/>
+                            </svg> <p>124 phút</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="phimds col-md-3" >
+                <div class="hieu_ung">
+                    <img class="hinh_phim" src="img/p7.png" alt="">
+                    <div class="nen"></div>
+                    <div class="icon">
+                        <a href="" style="color: aliceblue;">ĐẶT PHIM</a>
+                    </div>
+                </div>
+                <div class="thongtin">
+                    <h3 class="tenphim">Người dơi Batman</h3>
+                    <p style="margin-bottom: 8px;">Thể loại: điện ảnh viễn tưởng</p>
+                    <div class="phanduoi row">
+                        <div class="col-sm-6 trai" style="padding-right: 0px;">
+                            <div style="margin-bottom: -13px;" class="danhgia"><svg style="margin: 4px 0px; margin-right: 5px;" xmlns="http://www.w3.org/2000/svg" width="15.687" height="15.039" viewBox="0 0 13.687 13.039">
+                                <path id="Icon_material-star-half" data-name="Icon material-star-half" d="M16.687,7.968l-4.92-.425L9.843,3,7.92,7.55,3,7.968l3.736,3.246L5.614,16.039l4.229-2.56,4.229,2.56-1.115-4.824ZM9.843,12.2V5.814l1.17,2.772,3,.261-2.272,1.976.684,2.937Z" transform="translate(-3 -3)" fill="#ffb300"/>
+                            </svg> <p>4.3 | 67 Đánh giá</p> 
+                            </div>
+                            <div class="thoigian"><svg style="margin: 4px 0px; margin-right: 5px;" id="Icon_ionic-ios-timer" data-name="Icon ionic-ios-timer" xmlns="http://www.w3.org/2000/svg" width="15.223" height="15.269" viewBox="0 0 15.223 15.269">
+                                <path id="Path_13" data-name="Path 13" d="M11.551,19.207A7.639,7.639,0,0,1,6.267,6.075a.612.612,0,0,1,.849.882A6.386,6.386,0,1,0,12.16,5.193v2.39a.613.613,0,1,1-1.226,0V4.552a.613.613,0,0,1,.613-.615,7.635,7.635,0,0,1,0,15.269Z" transform="translate(-3.937 -3.938)" fill="#195c71"/>
+                                <path id="Path_14" data-name="Path 14" d="M11.856,11.323l3.788,2.729a1.148,1.148,0,0,1-1.332,1.87,1.108,1.108,0,0,1-.266-.267l-2.722-3.8a.382.382,0,0,1,.533-.534Z" transform="translate(-7.292 -7.281)" fill="#195c71"/>
+                            </svg> <p>134 phút</p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="phimds col-md-3" >
+                <div class="hieu_ung">
+                    <img class="hinh_phim" src="img/p8.png" alt="">
+                    <div class="nen"></div>
+                    <div class="icon">
+                        <a href="" style="color: aliceblue;">ĐẶT PHIM</a>
+                    </div>
+                </div>
+                <div class="thongtin">
+                    <h3 class="tenphim">KingKong</h3>
+                    <p style="margin-bottom: 8px;">Thể loại: hành động,viễn tưởng</p>
+                    <div class="phanduoi row">
+                        <div class="col-sm-6 trai" style="padding-right: 0px;">
+                            <div style="margin-bottom: -13px;" class="danhgia"><svg style="margin: 4px 0px; margin-right: 5px;" xmlns="http://www.w3.org/2000/svg" width="15.687" height="15.039" viewBox="0 0 13.687 13.039">
+                                <path id="Icon_material-star-half" data-name="Icon material-star-half" d="M16.687,7.968l-4.92-.425L9.843,3,7.92,7.55,3,7.968l3.736,3.246L5.614,16.039l4.229-2.56,4.229,2.56-1.115-4.824ZM9.843,12.2V5.814l1.17,2.772,3,.261-2.272,1.976.684,2.937Z" transform="translate(-3 -3)" fill="#ffb300"/>
+                            </svg> <p>4.9 | 55 Đánh giá</p> 
+                            </div>
+                            <div class="thoigian"><svg style="margin: 4px 0px; margin-right: 5px;" id="Icon_ionic-ios-timer" data-name="Icon ionic-ios-timer" xmlns="http://www.w3.org/2000/svg" width="15.223" height="15.269" viewBox="0 0 15.223 15.269">
+                                <path id="Path_13" data-name="Path 13" d="M11.551,19.207A7.639,7.639,0,0,1,6.267,6.075a.612.612,0,0,1,.849.882A6.386,6.386,0,1,0,12.16,5.193v2.39a.613.613,0,1,1-1.226,0V4.552a.613.613,0,0,1,.613-.615,7.635,7.635,0,0,1,0,15.269Z" transform="translate(-3.937 -3.938)" fill="#195c71"/>
+                                <path id="Path_14" data-name="Path 14" d="M11.856,11.323l3.788,2.729a1.148,1.148,0,0,1-1.332,1.87,1.108,1.108,0,0,1-.266-.267l-2.722-3.8a.382.382,0,0,1,.533-.534Z" transform="translate(-7.292 -7.281)" fill="#195c71"/>
+                            </svg> <p>130 phút</p>
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+            
+        </div>  
+        <div>
+            <a style="color: blue;" href="">Xem thêm</a>
+        </div>  
+    </div>
+    <div class="khung3 container">
+        <div class="tieude-blog">Góc điện ảnh</div>
+        <div class="row blog">
+            <div class="blogtrai col-md-6" >
+               <div class="khunghoverl">
+                    <div class="blog-img chil"></div>
+               </div> 
+            </div>
+            <div class="blogphai col-md-6">
+                <div style="margin-bottom: 30px;" class="khunghover">
+                    <div class="blog-imgup chil"></div>
+                </div>
+                <div class="khunghover">
+                    <div class="blog-imgdown chil"></div>
+                </div>        
+            </div>
+        </div>
+    </div>
+    <div class="khungcuoi" >
+        <div class="container">
+            <div class="row" style="justify-content: space-between ;">
+                <div class="col-lg-3 col-md-6 col-sm-6" style="margin-top: 45px;">
+                    <div class="tieudeto morend"style="color: white;">Cinema</div>
+                    <div class="textnho"style="color: white;">Email: cinemavn@gmail.com <br>
+                        Hotline: 0344 61 22 22 <br>
+                        Cơ sở 1: Số 7, Ngõ 45, Phố Giảng Võ, Cát Linh, Đống Đa, Hà Nội <br>
+                        Cơ sở 2: 45 Giải Phóng, Phường 
+                        Long Biên, Quận 3, TP Hồ Chí Minh
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6" style="margin-top: 56px;">
+                    <div class="tieude1 morend"style="color: white;">Công ty</div>
+                    <a href="" class="textnho"style="color: white;">Về chúng tôi </a> <br>
+                    <a href="" class="textnho"style="color: white;"> Blog </a>  <br>
+                    <a href="" class="textnho"style="color: white;"> Tuyển dụng </a>    <br>
+                    <a href="" class="textnho"style="color: white;"> Hợp tác với Cinema </a>  
+                   
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6" style=" margin-top: 56px">
+                    <div class="tieude1 morend"style="color: white;">Chinh sách</div>
+                    <a href="" class="textnho"style="color: white;">Chính sách bảo mật </a> <br>
+                    <a href="" class="textnho"style="color: white;"> Quyền lợi lao động </a>  <br>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6" style="margin-top: 56px;">
+                    <div class="tieude1 morend"style="color: white;">Công ty</div>
+                    <a href="" class="textnho"style="color: white;">Về chúng tôi </a> <br>
+                    <a href="" class="textnho"style="color: white;"> Blog </a>  <br>
+                    <a href="" class="textnho"style="color: white;"> Tuyển dụng </a>    <br>
+                    <a href="" class="textnho"style="color: white;"> Hợp tác với Cinema </a>  
+                   
+                </div>
+            </div>
+        </div>
+    </div> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js" integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.js" integrity="sha512-eP8DK17a+MOcKHXC5Yrqzd8WI5WKh6F1TIk5QZ/8Lbv+8ssblcz7oGC8ZmQ/ZSAPa7ZmsCU4e/hcovqR8jfJqA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $('.anhhome').slick({
+        dots: true,
+        infinite: true,
+        speed: 500,
+        fade: true,
+        cssEase: 'linear',
+        autoplay: true, 
+	    autoplaySpeed: 1500,
+        speed: 500,
+      });
+    });
+  </script>
+</body>
+</html>

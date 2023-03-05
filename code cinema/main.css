@@ -1,0 +1,398 @@
+body{
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    font-family: SF Display ;
+}
+@font-face {
+    font-family:SF Display ;
+    src: url(sf-ui-display-cufonfonts/sf-ui-display-medium-58646be638f96.otf);
+}
+@font-face{
+    font-family: UI Display;
+    src: url(sf-ui-display-cufonfonts/sf-ui-display-light-58646b33e0551.otf)
+}
+img{
+    vertical-align: middle;
+    border-style: none;
+    max-width:100% ;
+}
+a{
+    color: #fff;
+}
+a:hover {
+    text-decoration:none;
+    color: floralwhite;
+}
+.anh_home1{
+    background-image: url(img/anhhome1.png);
+                height: 472px;
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position-x: center;
+                border-radius: 15px;
+}
+.anh_home2{
+    background-image: url(img/anhhome2.png);
+                height: 472px;
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position-x: center;
+                border-radius: 15px;
+}
+.anh_home3{
+    background-image: url(img/anhhome3.png);
+                height: 472px;
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position-x: center;
+                border-radius: 15px;
+}
+.text_anhhome{
+    text-align: -webkit-center;
+    margin: 0px 367px;
+    color: aliceblue;
+    padding-top: 350px;
+}
+h1{
+    font-weight: bold;
+    font-size: 38px;
+}
+p{
+    font-size: 14px;
+    color: #00232E;
+    font-family:UI Display ;
+}
+h2{
+    font-size: 30px;
+    color: #D88C25;
+}
+h3{
+    font-size: 20px;
+    color: #195C71;
+}
+h4{
+    font-size: 23px;
+    color: #D88C25;
+}
+.ghichu{
+    font-size: 15px;
+    color: aliceblue;
+}
+.tieude{
+    margin-bottom: 20px;
+    width: 270px;
+}
+.line{
+    background-color: #C6C6C6;
+    height: 1px;
+}
+.hinh_phim{
+    width: 358px;
+    height: auto;
+    border-radius: 15px;
+}
+.danhgia{
+    display: inline-flex;
+}
+.thoigian{
+    display: flex;
+}
+.tenphim{
+    margin-bottom: 4px;
+    margin-top: 20px;
+}
+.phimds{
+    width: 320px;
+    background-color: white;
+    height: 315px;
+}
+.hieu_ung{
+    position: relative;
+}
+.icon{
+    position: absolute;
+    margin-left: 90px;
+	text-align: center;
+	margin-top:-77px;
+    z-index: 4;
+    opacity: 0;
+    transition: 2s;
+}
+.hieu_ung .nen{
+    width: auto;
+    height: 144px;
+    background: #18667dcf;
+    position: relative;
+    z-index: 3;
+    border-radius: 15px;
+    opacity: 0;
+    transition: 0.5s;
+    margin-top: -144px;
+}
+.hieu_ung:hover .nen{ opacity: 1;}
+.hieu_ung:hover .icon{opacity: 1; }
+.khungcuoi{
+    background-color: #000000;
+    height: fit-content;
+    margin-top: 120px;
+    padding-bottom: 50px;
+}
+.morend{
+    margin: 20px 0px;
+    font-size: 20px;
+}
+.textnho{
+    font-size: 14px;
+}
+
+.search-box{
+    background: #fff;
+    width: 240px;
+    border: 1px solid black;
+    border-radius: 15px;
+    margin-left: 40px;
+  }
+  .search-text{
+      height: 35px;
+      width: 200px;
+      border: none;
+      border-radius: 20px;
+      outline: none;
+      padding: 10px;
+  }
+  .settim{
+      border: none;
+      outline: none;
+      background-color: white;
+  }
+.blog-img{
+    width: auto;
+    height: 360px;
+    border-radius: 15px;
+    background-image: url(img/blog1.jpeg);
+}
+.khunghoverl{
+    width: auto;
+    height: 360px;
+    border-radius: 15px;
+    position: relative;
+    overflow: hidden;
+}
+.khunghover{
+    width: auto;
+    height: 165px;
+    border-radius: 15px;
+    position: relative;
+    overflow: hidden;
+}
+.chil{
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    transition: all 1.5s;
+    transform: scale(1);
+}
+.khunghover:hover .chil{
+    transform: scale(1.2);
+}
+.khunghoverl:hover .chil{
+    transform: scale(1.2);
+}
+.blog-imgup{
+    width: auto;
+    height: 165px;
+    border-radius: 15px;
+    background-image: url(img/blog2.png);
+}
+.blog-imgdown{
+    width: auto;
+    height: 165px;
+    border-radius: 15px;
+    background-image: url(img/blog3.png);
+}
+.tieude-blog{
+    font-size: 30px; 
+    color: #D88C25; 
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+.khungdk{
+    width: 350px;
+    margin-top: 150px;
+   }
+.btn-primary {
+    color: #fff;
+    background-color: #D88C25;
+    border-color: #D88C25;
+}
+.anh_phimct{
+    background-image: url(img/ct1.jpeg);
+    height: 472px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    border-radius: 15px;
+}
+.anhct{
+    background-image: url(img/tt.jpg);
+    width: auto;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.total{
+    font-size: 20px;
+    color: #D88C25;
+}
+.khungphim{
+    width: auto;
+    height: 800px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px;
+}
+.set{
+    margin-bottom: 5px;
+}
+.khungngay{
+    width: auto;
+    height: 100px;
+    display: flex;
+}
+.day1{
+    font-family: sans-serif;
+    font-size: 15px;
+}
+.day2{
+    font-size: 30px;
+    font-family: sans-serif;
+    color: #195C71;
+    margin: -5px 0px;
+}
+.day3{
+    font-size: 15px;
+    font-family: sans-serif;
+}
+.form-check .checkbox_item .checkbox{
+    display: none;
+}
+.form-check .checkbox_item::before{
+width: 44px;
+height: 84px;
+content: '';
+border: 1px solid rgb(255, 255, 255);
+display: block;
+position: absolute;
+z-index: 5;
+}
+.day_set{
+padding: 4px;
+text-align: center;
+}
+.form-check .checkbox_item i{
+width: 44px;
+height: 80px;
+background-color: rgba(30, 120, 150, 0.209);
+position: relative;
+margin-top: -85px;
+z-index: 4;
+border-radius: 6px;
+}
+.form-check .checkbox_item .checkbox:checked ~ i{
+display: block;
+}
+.form-check{
+    padding-right: 10px;
+}
+.time2{
+    font-family: sans-serif;
+    font-size: 15px;
+}
+.time1{
+    font-size: 20px;
+    font-family: sans-serif;
+    color: #195C71;
+    margin: -5px 0px;
+}
+.time_set{
+padding: 4px;
+}
+.form-check .checkbox_ite .checkbox{
+    display: none;
+}
+.form-check .checkbox_ite::before{
+width: 44px;
+height: 60px;
+content: '';
+border: 1px solid rgb(255, 255, 255);
+display: block;
+position: absolute;
+z-index: 5;
+}
+
+.checkbox_ite i{
+width: 44px;
+height: 44px;
+background-color: rgba(30, 120, 150, 0.209);
+position: relative;
+margin-top: -50px;
+z-index: 4;
+border-radius: 5px;
+}
+.form-check .checkbox_ite .checkbox:checked ~ i{
+display: block;
+}
+.khungpay{
+    width: auto;
+    height: 800px;
+    background-color: #D88C25;
+    background-size: cover;
+}
+.khungpay_trong{
+    width: 665px;
+    height: 630px;
+    background-color: #fff;
+    margin: 30px;
+    position: absolute;
+    margin-top: 137px;
+}
+.textpay{
+    font-size: 30px;
+    color: #fff;
+    font-family: sans-serif;
+    position: absolute;
+    margin: 30px;
+}
+.pay{
+    width: 600px;
+    margin: 50px;
+}
+.khungngoai{
+    width: 500px;
+    height: 500px;
+    background-color: #D88C25;
+    background-size: cover;
+    margin-top: 130px;
+}
+.khungtrong{
+    width: 436px;
+    height: 330px;
+    background-color: #fff;
+    position: absolute;
+    margin: 31px;
+    margin-top: 140px;
+}
+.anhcode{
+    height: 330px;
+    width: 399px;
+    margin-left: 20px;
+}
+.textcode{
+    font-size: 27px;
+    color: #fff;
+    font-family: sans-serif;
+    position: absolute;
+    margin: 29px;
+    margin-top: 53px;
+}

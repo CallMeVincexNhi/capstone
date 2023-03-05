@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">   <!--bootstrap-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> <!--aos-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer" /> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <link rel="stylesheet" href="main.css"> <!--linkcss-->
+    <title>cinema</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top" style="background-color: #000000;">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img style="height: 46px" src="img/logo.png">            
+            </a *logo>
+            <form action="" class="search-box"> 
+                <input type="text" class="search-text" placeholder="Tìm kiếm phim">
+                <button class="search-btn settim"><svg style="margin: -6px;" id="search" xmlns="http://www.w3.org/2000/svg" width="20.699" height="20.696" viewBox="0 0 63.699 63.696">
+                 <path id="Path_11603" data-name="Path 11603" d="M24,24a3.981,3.981,0,0,1,5.634,0L44.96,39.329a3.982,3.982,0,0,1-5.628,5.634L24.006,29.636a3.981,3.981,0,0,1,0-5.634Z" transform="translate(17.571 17.568)" fill-rule="evenodd"/>
+                 <path id="Path_11604" data-name="Path 11604" d="M25.877,47.773a21.9,21.9,0,1,0-21.9-21.9A21.9,21.9,0,0,0,25.877,47.773Zm25.877-21.9A25.877,25.877,0,1,1,25.877,0,25.877,25.877,0,0,1,51.754,25.877Z" fill-rule="evenodd"/>
+               </svg>
+               </button>
+             </form>
+            <!-- Navbar links -->
+            <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item dieuchinhheader">
+                        <a class="nav-link" href="#section1">Home</a>
+                    <li class="nav-item dieuchinhheader">
+                        <a class="nav-link" href="#section2">Phim</a>
+                    </li>
+                    <li class="nav-item dieuchinhheader">
+                        <a class="nav-link" href="#section3">Đặt vé</a>
+                    </li>
+                    <li class="nav-item dieuchinhheader">
+                        <a class="nav-link" href="#section4">Giạp chiếu</a>
+                    </li>
+                    <li class="nav-item dieuchinhheader">
+                        <a class="nav-link" href="#section4">My Account</a>
+                    </li>
+                </ul>
+            </div>
+        </div *container1>
+    </nav *navber> 
+    <div class="khungdk container">
+        <div style="margin-bottom: 20px; text-align: center;">
+            <h2>Đăng Nhập</h2>
+        </div>
+        <form action="/action_page.php">
+            <div class="form-group">
+              <label for="email">Email address:</label>
+              <input type="email" class="form-control" placeholder="Enter email" id="email">
+            </div>
+            <div class="form-group">
+              <label for="pwd">Password:</label>
+              <input type="password" class="form-control" placeholder="Enter password" id="pwd">
+            </div>
+            <div class="form-group form-check">
+              <label class="form-check-label">
+                <input class="form-check-input" type="checkbox"> Remember me
+              </label>
+            </div>
+            <button type="submit" class="btn btn-primary"><a href="../code cinema/home.html" style="color: rgb(239, 239, 239);">Submit</a></button>
+          </form>
+          <div style="margin-top: 20px;">
+            <p>Bạn chưa có tài khoản? <span><a style="color: #D88C25;" href="../code cinema/dangki.html">Đăng kí</a></span></p>
+        </div>
+    </div>
+    
+    <div class="khungcuoi" >
+        <div class="container">
+            <div class="row" style="justify-content: space-between ;">
+                <div class="col-lg-3 col-md-6 col-sm-6" style="margin-top: 45px;">
+                    <div class="tieudeto morend"style="color: white;">Cinema</div>
+                    <div class="textnho"style="color: white;">Email: cinemavn@gmail.com <br>
+                        Hotline: 0344 61 22 22 <br>
+                        Cơ sở 1: Số 7, Ngõ 45, Phố Giảng Võ, Cát Linh, Đống Đa, Hà Nội <br>
+                        Cơ sở 2: 45 Giải Phóng, Phường 
+                        Long Biên, Quận 3, TP Hồ Chí Minh
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6" style="margin-top: 56px;">
+                    <div class="tieude1 morend"style="color: white;">Công ty</div>
+                    <a href="" class="textnho"style="color: white;">Về chúng tôi </a> <br>
+                    <a href="" class="textnho"style="color: white;"> Blog </a>  <br>
+                    <a href="" class="textnho"style="color: white;"> Tuyển dụng </a>    <br>
+                    <a href="" class="textnho"style="color: white;"> Hợp tác với Cinema </a>  
+                   
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6" style=" margin-top: 56px">
+                    <div class="tieude1 morend"style="color: white;">Chinh sách</div>
+                    <a href="" class="textnho"style="color: white;">Chính sách bảo mật </a> <br>
+                    <a href="" class="textnho"style="color: white;"> Quyền lợi lao động </a>  <br>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6" style="margin-top: 56px;">
+                    <div class="tieude1 morend"style="color: white;">Công ty</div>
+                    <a href="" class="textnho"style="color: white;">Về chúng tôi </a> <br>
+                    <a href="" class="textnho"style="color: white;"> Blog </a>  <br>
+                    <a href="" class="textnho"style="color: white;"> Tuyển dụng </a>    <br>
+                    <a href="" class="textnho"style="color: white;"> Hợp tác với Cinema </a>  
+                   
+                </div>
+            </div>
+        </div>
+    </div> 
+</body>
+</html>
